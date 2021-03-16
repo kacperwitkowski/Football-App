@@ -42,9 +42,7 @@ for (let i = 0; i < links.length; i++) {
   })
 }
 
-if (module.hot) {
-  module.hot.accept()
-}
+
 
 const returnUrl = () => {
   return `https://raw.githubusercontent.com/openfootball/football.json/master/${currentLeaugeSpan.innerText}/${changerLeauges}.json`;
