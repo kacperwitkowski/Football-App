@@ -84,9 +84,9 @@ for (let i = 0; i < seasons.length; i++) {
         testChanger.forEach(match => {
 
           let html = `<div class="container--row">
-            <div class="team--1 teams"><img src="../images/${match.team1}.png"/>
+            <div class="team--1 teams"><img src="./images/${match.team1}.png"/>
             <span>${match.team1}</span></div><div class="score">${match.score.ft[0]}:${match.score.ft[1]}</div>
-            <div class="team--2 teams"><span>${match.team2}</span><img src="../images/${match.team2}.png"/>
+            <div class="team--2 teams"><span>${match.team2}</span><img src="./images/${match.team2}.png"/>
             </div></div>`;
 
           containerParent.insertAdjacentHTML('afterbegin', html);
@@ -119,9 +119,9 @@ const changerMatchday = () => {
 
       testChanger.forEach(match => {
         html = `<div class="container--row">
-       <div class="team--1 teams"><img src="../images/${match.team1}.png"/>
+       <div class="team--1 teams"><img src="./images/${match.team1}.png"/>
        <span>${match.team1}</span></div><div class="score">${match.score.ft[0]}:${match.score.ft[1]}</div>
-       <div class="team--2 teams"><span>${match.team2}</span><img src="../images/${match.team2}.png"/>
+       <div class="team--2 teams"><span>${match.team2}</span><img src="./images/${match.team2}.png"/>
        </div></div>`;
         containerParent.insertAdjacentHTML('afterbegin', html);
       })
@@ -197,9 +197,9 @@ const searching = function (e) {
 
       testChanger.forEach(match => {
         let html = `<div class="container--row">
-    <div class="team--1 teams"><img src="../images/${match.team1}.png"/>
+    <div class="team--1 teams"><img src="./images/${match.team1}.png"/>
     <span>${match.team1}</span></div><div class="score">${match.score.ft[0]}:${match.score.ft[1]}</div>
-    <div class="team--2 teams"><span>${match.team2}</span><img src="../images/${match.team2}.png"/>
+    <div class="team--2 teams"><span>${match.team2}</span><img src="./images/${match.team2}.png"/>
     </div></div>`;
 
 
