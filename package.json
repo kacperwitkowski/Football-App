@@ -1,0 +1,15 @@
+{
+  "name": "treningi-pilka",
+  "version": "1.0.0",
+  "description": "Football results from last few years",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Kacper Witkowski",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}
